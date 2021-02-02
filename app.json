@@ -10,7 +10,11 @@
     "IMAGE_URL": {
       "description": "Image URL that shows as an icon with the message.",
       "value": "https://libcom.org/files/images/library/fist.jpg"
-    }
+    },
+    "QUOTES": [
+      "Lets read Quran",
+      "Quran barokah"
+    ]
   },
   "keywords": ["ruby", "slack_bot"],
   "addons": ["scheduler:standard"]
