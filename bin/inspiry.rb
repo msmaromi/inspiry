@@ -16,13 +16,13 @@ def get_quote
   post_message(quote)
 end
 
-def post_message quote
+def post_message quote  
   puts "Transferring the vibe through Slack!"
-  puts quote
+  puts quote  
   HTTParty.post(
     SLACK_API_POST_MESSAGE, 
     :query => {:channel => "C01LV3RQR2R", :text => quote, :pretty => 1},
-    :headers => {'Authorization' => 'Bearer xoxb-1249715368885-1686719501959-GDGeDZFP1qU8QzG54v5WQ5h4'}
+    :headers => {'Authorization' => "Bearer #{ENV["TOKEN"]}"}
   )
   puts "Posted a message. Hope they'd like it."
 end
