@@ -3,10 +3,13 @@ require 'json'
 require 'date'
 
 QUOTES = [
-  "\"The more you read the Quran, the more you fall in love with The Author\"\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
-  "\"Don't never ever be in your mind that you are the one who achieve something. Indeed Alloh make it easy for you.\"\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
-  "\"The Quran is a friend, which will never let you down in this world and hereafter\"\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
-  "\"Don't leave me, don't stay away from me, keep me inside your heart, read me, understand me and obey me, *because tomorrow in the grave you will need me*\"\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh"
+  "The more you read the Quran, the more you fall in love with The Author.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Don't never ever be in your mind that you are the one who achieve something. Indeed Allah make it easy for you.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "The Quran is a friend, which will never let you down in this world and hereafter.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Don't leave me, don't stay away from me, keep me inside your heart, read me, understand me and obey me, *because tomorrow in the grave you will need me*.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Recharge your iman & boost your productivity? Read quran!\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Wordly life is very short, so turn to Allah before you return to Him.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Good days start with gratitude.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh"
 ]
 SLACK_API_POST_MESSAGE = "https://slack.com/api/chat.postMessage"
 
