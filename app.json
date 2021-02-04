@@ -1,21 +1,7 @@
 {
   "name": "One Quote A Day.",
   "description": "A Bot to post one inspirational quote per day.",
-  "repository": "https://github.com/avinoth/inspiry",
-  "env": {
-    "SLACK_WEBHOOK": {
-      "description": "Incoming Webhook URL of Slack.",
-      "value": "https://hooks.slack.com/services/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"
-    },
-    "IMAGE_URL": {
-      "description": "Image URL that shows as an icon with the message.",
-      "value": "https://libcom.org/files/images/library/fist.jpg"
-    },
-    "QUOTES": [
-      "Lets read Quran",
-      "Quran barokah"
-    ]
-  },
+  "repository": "https://github.com/avinoth/inspiry",  
   "keywords": ["ruby", "slack_bot"],
   "addons": ["scheduler:standard"]
 }
