@@ -8,7 +8,7 @@ QUOTES = [
   "\"The Quran is a friend, which will never let you down in this world and hereafter\"\n\nNgaji yuk squad @channel\nhttps://meet.google.com/ucx-orqs-nsh",
   "\"Don't leave me, don't stay away from me, keep me inside your heart, read me, understand me and obey me, *because tomorrow in the grave you will need me*\"\n\nNgaji yuk squad @channel\nhttps://meet.google.com/ucx-orqs-nsh"
 ]
-SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
+SLACK_API_POST_MESSAGE = "https://slack.com/api/chat.postMessage"
 
 
 def get_quote
@@ -18,9 +18,12 @@ end
 
 def post_message quote
   puts "Transferring the vibe through Slack!"
-  img = ENV["IMAGE_URL"] || "https://libcom.org/files/images/library/fist.jpg"
   puts quote
-  HTTParty.post(SLACK_WEBHOOK, :body => {:text => quote}.to_json, :headers => {'Content-Type' => 'application/json'})
+  HTTParty.post(
+    SLACK_API_POST_MESSAGE, 
+    :query => {:channel => "C01LV3RQR2R", :text => quote, :pretty => 1},
+    :headers => {'Authorization' => 'Bearer xoxb-1249715368885-1686719501959-GDGeDZFP1qU8QzG54v5WQ5h4'}
+  )
   puts "Posted a message. Hope they'd like it."
 end
 
