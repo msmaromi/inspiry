@@ -24,7 +24,7 @@ def post_message quote
   puts quote  
   HTTParty.post(
     SLACK_API_POST_MESSAGE, 
-    :query => {:channel => "C01LV3RQR2R", :text => quote, :pretty => 1},
+    :query => {:channel => "C017K819DJ8", :text => quote, :pretty => 1},
     :headers => {'Authorization' => "Bearer #{ENV["SLACK_API_TOKEN"]}"}
   )
   puts "Posted a message. Hope they'd like it."
