@@ -9,7 +9,9 @@ QUOTES = [
   "Don't leave me, don't stay away from me, keep me inside your heart, read me, understand me and obey me, *because tomorrow in the grave you will need me*.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
   "Recharge your iman & boost your productivity? Read quran!\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
   "Wordly life is very short, so turn to Allah before you return to Him.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
-  "Good days start with gratitude.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh"
+  "Good days start with gratitude.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "And do not mix the truth with falsehood or conceal the truth while you know (it) - Baqarah 42.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Allah makes the impossible possible.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh"
 ]
 SLACK_API_POST_MESSAGE = "https://slack.com/api/chat.postMessage"
 
