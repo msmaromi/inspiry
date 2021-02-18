@@ -11,7 +11,13 @@ QUOTES = [
   "Wordly life is very short, so turn to Allah before you return to Him.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
   "Good days start with gratitude.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
   "And do not mix the truth with falsehood or conceal the truth while you know (it) - Baqarah 42.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
-  "Allah makes the impossible possible.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh"
+  "Allah makes the impossible possible.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Call upon me, I will respond to you - Al ayah.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Indeed, Allah forgives All Sins - Al ayah.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "Do not despair of the mercy of Allah - Az zumar 53.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "HAPPINES is when Allah talks to you.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "HAPPINES is when Allah talks to you.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh",
+  "O you who believe! Seek help through patience and prayer. Indeed, Allah is with the patience. Al Baqarah 153.\n\nNgaji yuk squad <!channel>\nhttps://meet.google.com/ucx-orqs-nsh"
 ]
 SLACK_API_POST_MESSAGE = "https://slack.com/api/chat.postMessage"
 
